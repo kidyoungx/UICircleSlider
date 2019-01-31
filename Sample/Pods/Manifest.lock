@@ -1,0 +1,16 @@
+PODS:
+  - UICircleSlider (1.0.1)
+
+DEPENDENCIES:
+  - UICircleSlider (from `../`)
+
+EXTERNAL SOURCES:
+  UICircleSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UICircleSlider: e2aaabca528f62e8f2203a116c457daa4bc91fa7
+
+PODFILE CHECKSUM: 67827d7a450238f4962732144cc2e1fb35337e51
+
+COCOAPODS: 1.5.3
