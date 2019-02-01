@@ -6,6 +6,6 @@ target 'SampleUICircleSlider' do
   # use_frameworks!
 
   # Pods for SampleUICircleSlider
-  pod 'UICircleSlider'
+  pod 'UICircleSlider', '1.0.1'
 
 end

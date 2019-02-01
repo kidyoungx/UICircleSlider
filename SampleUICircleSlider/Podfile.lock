@@ -1,5 +1,5 @@
 PODS:
-  - UICircleSlider (1.0.2)
+  - UICircleSlider (1.0.1)
 
 DEPENDENCIES:
   - UICircleSlider
@@ -9,7 +9,7 @@ SPEC REPOS:
     - UICircleSlider
 
 SPEC CHECKSUMS:
-  UICircleSlider: e2780563a611c74175a10d2a72a12227d8f719a1
+  UICircleSlider: 9835220d59c7650f949adb4634b72132a36c79aa
 
 PODFILE CHECKSUM: 9ea1cbdeb43b699f4ccf77c53e9987c80aab361b
 
