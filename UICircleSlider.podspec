@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UICircleSlider"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A Circle style Slider like UISlider."
 
   s.description  = <<-DESC
@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
 
   s.author             = { "Kid Young" => "kidyoungx@gmail.com" }
 
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  s.ios.deployment_target = "5.0"
 
   s.source       = { :git => "https://github.com/kidyoungx/UICircleSlider.git", :tag => s.version }
 
