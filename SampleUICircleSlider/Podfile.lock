@@ -2,15 +2,15 @@ PODS:
   - UICircleSlider (1.0.1)
 
 DEPENDENCIES:
-  - UICircleSlider
+  - UICircleSlider (= 1.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - UICircleSlider
 
 SPEC CHECKSUMS:
-  UICircleSlider: 9835220d59c7650f949adb4634b72132a36c79aa
+  UICircleSlider: 1e5f5ecc5971a131c6fd650b969404b184ca1712
 
-PODFILE CHECKSUM: 9ea1cbdeb43b699f4ccf77c53e9987c80aab361b
+PODFILE CHECKSUM: cf226dcda2bb9b27dd919375794ec7276e47a1bd
 
 COCOAPODS: 1.5.3

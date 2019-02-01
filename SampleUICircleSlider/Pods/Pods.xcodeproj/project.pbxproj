@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		266E14A04B787D4CE0D525CEFB9D8DD5 /* UICircleSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CD20B8A3F4E7B37FEBBB888BDC27 /* UICircleSlider-dummy.m */; };
 		67F647E0231F07C118B82AD0C8D6AE3D /* UICircleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = A85C80EF92720389F87B42B9CA11AD8F /* UICircleSlider.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B07771FBB434A68F29D741AF09DD2460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
 		C0B0FA8BE0E454AA5ABC1CE1E54F460F /* UICircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE973EDCC4CA64293B0BC7123E15DDC /* UICircleSlider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CCCBE852C432140F396DF5023C2D5280 /* Pods-SampleUICircleSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765C85F0D227D36719F13F3C16A084DE /* Pods-SampleUICircleSlider-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		B705EBEE5287EEC7980C2A6967AC0737 /* libUICircleSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUICircleSlider.a; path = libUICircleSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC89619AFF1F769CB56F9DAFCD1F6575 /* Pods-SampleUICircleSlider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleUICircleSlider-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4F4307D85DE2D1DEFF442AA73917CA8 /* UICircleSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircleSlider.xcconfig; sourceTree = "<group>"; };
-		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FA9C9386A689348665F4A667E8008BDE /* Pods-SampleUICircleSlider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleUICircleSlider-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,17 +49,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88795EFE4D26EBCDF79C9BE61B1B210A /* Frameworks */ = {
+		B9772EC18842355AC9A9352247A1A97A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07771FBB434A68F29D741AF09DD2460 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1686DE1F230E43C4FB1411333C8B085D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				E56D5AF3DDC8E6F817C5F6F31AC7E05E /* Pods */,
 				E0FDF38D0BDEB5DB9B72912807FCDF25 /* Products */,
 				1686DE1F230E43C4FB1411333C8B085D /* Targets Support Files */,
@@ -118,14 +122,6 @@
 			path = UICircleSlider;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E0FDF38D0BDEB5DB9B72912807FCDF25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,14 +137,6 @@
 				AD59B53015946A123A2E573DA412939E /* UICircleSlider */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +184,7 @@
 			buildPhases = (
 				4C2596B22603172F28F6DFF9D9EC3AB9 /* Headers */,
 				90AF13ED256F735C837DDBA858E69D21 /* Sources */,
-				88795EFE4D26EBCDF79C9BE61B1B210A /* Frameworks */,
+				B9772EC18842355AC9A9352247A1A97A /* Frameworks */,
 			);
 			buildRules = (
 			);

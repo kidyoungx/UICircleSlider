@@ -13,17 +13,14 @@ Pod::Spec.new do |s|
 
   s.author             = { "Kid Young" => "kidyoungx@gmail.com" }
 
-  s.platform     = :ios
-  s.ios.deployment_target = "5.0"
+  s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "https://github.com/kidyoungx/UICircleSlider.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/kidyoungx/UICircleSlider.git", :tag => "#{s.version}" }
 
   s.source_files  = "UICircleSlider", "UICircleSlider/**/*.{h,m}"
-  s.exclude_files = "Sample"
+  s.exclude_files = "SampleUICircleSlider"
 
   s.public_header_files = "UICircleSlider/**/*.h"
-
-  s.framework = "UIKit"
 
   s.requires_arc = true
 
