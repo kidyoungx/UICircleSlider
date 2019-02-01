@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266E14A04B787D4CE0D525CEFB9D8DD5 /* UICircleSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CD20B8A3F4E7B37FEBBB888BDC27 /* UICircleSlider-dummy.m */; };
+		67F647E0231F07C118B82AD0C8D6AE3D /* UICircleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = A85C80EF92720389F87B42B9CA11AD8F /* UICircleSlider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B07771FBB434A68F29D741AF09DD2460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		C0B0FA8BE0E454AA5ABC1CE1E54F460F /* UICircleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE973EDCC4CA64293B0BC7123E15DDC /* UICircleSlider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCCBE852C432140F396DF5023C2D5280 /* Pods-SampleUICircleSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765C85F0D227D36719F13F3C16A084DE /* Pods-SampleUICircleSlider-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B117857E03564E56CAAEF5091F74F7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572E8508A170B0E9AB384E551B45E46F;
+			remoteInfo = UICircleSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38ADF4FF07718905CD58979512B7B9A3 /* Pods-SampleUICircleSlider-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleUICircleSlider-frameworks.sh"; sourceTree = "<group>"; };
+		406EFB5C59BCE3B33DC56E618008D292 /* Pods-SampleUICircleSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleUICircleSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFA56318047516B3BAC68073D6621F7 /* Pods-SampleUICircleSlider-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleUICircleSlider-resources.sh"; sourceTree = "<group>"; };
+		4FF2CD20B8A3F4E7B37FEBBB888BDC27 /* UICircleSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircleSlider-dummy.m"; sourceTree = "<group>"; };
+		50F08DAADD1179C19D2AB93539A04B78 /* libPods-SampleUICircleSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleUICircleSlider.a"; path = "libPods-SampleUICircleSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765C85F0D227D36719F13F3C16A084DE /* Pods-SampleUICircleSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleUICircleSlider-dummy.m"; sourceTree = "<group>"; };
+		8FE973EDCC4CA64293B0BC7123E15DDC /* UICircleSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICircleSlider.m; path = UICircleSlider/UICircleSlider.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A738E7AB1603CD13C757B8CB403E36EF /* Pods-SampleUICircleSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleUICircleSlider.release.xcconfig"; sourceTree = "<group>"; };
+		A85C80EF92720389F87B42B9CA11AD8F /* UICircleSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircleSlider.h; path = UICircleSlider/UICircleSlider.h; sourceTree = "<group>"; };
+		AB0DEE1C0CF55760ED3B67F959116DA6 /* UICircleSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircleSlider-prefix.pch"; sourceTree = "<group>"; };
+		B705EBEE5287EEC7980C2A6967AC0737 /* libUICircleSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUICircleSlider.a; path = libUICircleSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC89619AFF1F769CB56F9DAFCD1F6575 /* Pods-SampleUICircleSlider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleUICircleSlider-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4F4307D85DE2D1DEFF442AA73917CA8 /* UICircleSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircleSlider.xcconfig; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA9C9386A689348665F4A667E8008BDE /* Pods-SampleUICircleSlider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleUICircleSlider-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D22E9027E3361650BB094E2DFC70CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88795EFE4D26EBCDF79C9BE61B1B210A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07771FBB434A68F29D741AF09DD2460 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1686DE1F230E43C4FB1411333C8B085D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				803ECF5DBE7468F635E29DCE6A357F30 /* Pods-SampleUICircleSlider */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FFB989362347D92AEF3E3C4C5970803 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4F4307D85DE2D1DEFF442AA73917CA8 /* UICircleSlider.xcconfig */,
+				4FF2CD20B8A3F4E7B37FEBBB888BDC27 /* UICircleSlider-dummy.m */,
+				AB0DEE1C0CF55760ED3B67F959116DA6 /* UICircleSlider-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICircleSlider";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E56D5AF3DDC8E6F817C5F6F31AC7E05E /* Pods */,
+				E0FDF38D0BDEB5DB9B72912807FCDF25 /* Products */,
+				1686DE1F230E43C4FB1411333C8B085D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		803ECF5DBE7468F635E29DCE6A357F30 /* Pods-SampleUICircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CC89619AFF1F769CB56F9DAFCD1F6575 /* Pods-SampleUICircleSlider-acknowledgements.markdown */,
+				FA9C9386A689348665F4A667E8008BDE /* Pods-SampleUICircleSlider-acknowledgements.plist */,
+				765C85F0D227D36719F13F3C16A084DE /* Pods-SampleUICircleSlider-dummy.m */,
+				38ADF4FF07718905CD58979512B7B9A3 /* Pods-SampleUICircleSlider-frameworks.sh */,
+				4AFA56318047516B3BAC68073D6621F7 /* Pods-SampleUICircleSlider-resources.sh */,
+				406EFB5C59BCE3B33DC56E618008D292 /* Pods-SampleUICircleSlider.debug.xcconfig */,
+				A738E7AB1603CD13C757B8CB403E36EF /* Pods-SampleUICircleSlider.release.xcconfig */,
+			);
+			name = "Pods-SampleUICircleSlider";
+			path = "Target Support Files/Pods-SampleUICircleSlider";
+			sourceTree = "<group>";
+		};
+		AD59B53015946A123A2E573DA412939E /* UICircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				A85C80EF92720389F87B42B9CA11AD8F /* UICircleSlider.h */,
+				8FE973EDCC4CA64293B0BC7123E15DDC /* UICircleSlider.m */,
+				2FFB989362347D92AEF3E3C4C5970803 /* Support Files */,
+			);
+			name = UICircleSlider;
+			path = UICircleSlider;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0FDF38D0BDEB5DB9B72912807FCDF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F08DAADD1179C19D2AB93539A04B78 /* libPods-SampleUICircleSlider.a */,
+				B705EBEE5287EEC7980C2A6967AC0737 /* libUICircleSlider.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E56D5AF3DDC8E6F817C5F6F31AC7E05E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD59B53015946A123A2E573DA412939E /* UICircleSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B868A5340AF0CA465855256BB1AC065 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2596B22603172F28F6DFF9D9EC3AB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F647E0231F07C118B82AD0C8D6AE3D /* UICircleSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28B596DFBC57AA64F0C301A1CFCD4D52 /* Pods-SampleUICircleSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19A8E9F44C12A4B84731A3428C3C44D /* Build configuration list for PBXNativeTarget "Pods-SampleUICircleSlider" */;
+			buildPhases = (
+				4B868A5340AF0CA465855256BB1AC065 /* Headers */,
+				AF072C06E3D97E4DB383DAF01F93C288 /* Sources */,
+				2D22E9027E3361650BB094E2DFC70CCD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DABCCF7B16E419BBDB4B9E18F588259 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleUICircleSlider";
+			productName = "Pods-SampleUICircleSlider";
+			productReference = 50F08DAADD1179C19D2AB93539A04B78 /* libPods-SampleUICircleSlider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		572E8508A170B0E9AB384E551B45E46F /* UICircleSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC5DAEBC8CD6A520B9DA3659A971AE5 /* Build configuration list for PBXNativeTarget "UICircleSlider" */;
+			buildPhases = (
+				4C2596B22603172F28F6DFF9D9EC3AB9 /* Headers */,
+				90AF13ED256F735C837DDBA858E69D21 /* Sources */,
+				88795EFE4D26EBCDF79C9BE61B1B210A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICircleSlider;
+			productName = UICircleSlider;
+			productReference = B705EBEE5287EEC7980C2A6967AC0737 /* libUICircleSlider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E0FDF38D0BDEB5DB9B72912807FCDF25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B596DFBC57AA64F0C301A1CFCD4D52 /* Pods-SampleUICircleSlider */,
+				572E8508A170B0E9AB384E551B45E46F /* UICircleSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AF13ED256F735C837DDBA858E69D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266E14A04B787D4CE0D525CEFB9D8DD5 /* UICircleSlider-dummy.m in Sources */,
+				C0B0FA8BE0E454AA5ABC1CE1E54F460F /* UICircleSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF072C06E3D97E4DB383DAF01F93C288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCBE852C432140F396DF5023C2D5280 /* Pods-SampleUICircleSlider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DABCCF7B16E419BBDB4B9E18F588259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICircleSlider;
+			target = 572E8508A170B0E9AB384E551B45E46F /* UICircleSlider */;
+			targetProxy = B117857E03564E56CAAEF5091F74F7DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26F44EF7390DDB3D2E353333DF986D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F4307D85DE2D1DEFF442AA73917CA8 /* UICircleSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircleSlider/UICircleSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UICircleSlider;
+				PRODUCT_NAME = UICircleSlider;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A4DB64E3F8F59321374E822BCA6952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A738E7AB1603CD13C757B8CB403E36EF /* Pods-SampleUICircleSlider.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573B410DEF1AB46D006A4C55A52B29D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406EFB5C59BCE3B33DC56E618008D292 /* Pods-SampleUICircleSlider.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DC5FBA2EE3CAB998D9C10E794A335EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F4307D85DE2D1DEFF442AA73917CA8 /* UICircleSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircleSlider/UICircleSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UICircleSlider;
+				PRODUCT_NAME = UICircleSlider;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC5DAEBC8CD6A520B9DA3659A971AE5 /* Build configuration list for PBXNativeTarget "UICircleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F44EF7390DDB3D2E353333DF986D98 /* Debug */,
+				7DC5FBA2EE3CAB998D9C10E794A335EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19A8E9F44C12A4B84731A3428C3C44D /* Build configuration list for PBXNativeTarget "Pods-SampleUICircleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573B410DEF1AB46D006A4C55A52B29D2 /* Debug */,
+				54A4DB64E3F8F59321374E822BCA6952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
